@@ -1,0 +1,5 @@
+package_name = ""
+repository_url = "invalid_url"
+working_mode = "wrong_mode"
+max_depth = 0
+filter_substring = 123

@@ -1,0 +1,5 @@
+package_name = "express"
+repository_url = "https://github.com/Rezzur/Configuration_management_2"
+working_mode = "remote"
+max_depth = 3
+filter_substring = ""
