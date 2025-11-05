@@ -1,5 +1,15 @@
-package_name = "express"
-repository_url = "https://github.com/Rezzur/Configuration_management_2"
-working_mode = "remote"
-max_depth = 3
+# Имя пакета, который мы ищем
+package_name = "python3-toml"
+
+# Режим работы: 'remote' или 'local'
+working_mode = "remote" # 'remote' - качает из сети, 'local' - читает с диска
+
+# --- Параметры для 'remote' режима ---
+# Базовый URL репозитория
+repository_url = "http://archive.ubuntu.com/ubuntu"
+distribution = "jammy" # (Ubuntu 22.04)
+# Компонент (main, universe, restricted, multiverse)
+component = "universe"
+architecture = "amd64"
+max_depth = 5
 filter_substring = ""
