@@ -1,0 +1,22 @@
+# Сложный граф с циклами
+START->A,B,C
+A->D,E
+B->F,G
+C->H
+D->I,J
+E->K
+F->A,L  # Цикл: A->D->I->M->A
+G->N
+H->O,P
+I->M
+J->Q
+K->R
+L->S
+M->A    # Замыкает цикл
+N->T
+O->U
+P->V
+Q->W
+R->X
+S->Y
+T->Z
